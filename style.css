@@ -1,0 +1,30 @@
+h1{
+  font-family: sans-serif;
+}
+body{
+  background-color:lightgray;
+}
+article{
+  border-radius: 15px;
+  background-color: #f0f0f0;
+  height: 51vw;
+  width: 70vw;
+
+  
+}
+
+@media screen and (max-width: 100rem) and (max-height: 10rem) {
+  article{
+    height: 65rem;
+    width:70rem;
+  }
+}
+  
+input{
+  margin: 20px;
+  background-color: #969696;
+}
+button{
+  margin: 20px;
+  background-color: #908aff;
+}
